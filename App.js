@@ -25,33 +25,27 @@ const App = (props) => {
       <MapView
         style={styles.map}
         region={{
-          latitude: 37.78825,
-          longitude: -122.4324,
+          latitude: 32.824539,
+          longitude: -96.674718,
           latitudeDelta: 0.015,
           longitudeDelta: 0.0121,
         }}
       >
+      {
+        props.appData.data.length ? (
+          props.appData.data.map((location, i) => {
+            return <View key={i} >
+              <MapView.Marker
+                coordinate={{latitude:location.lat, longitude:location.lon}}
+              />
+            </View>
+          })
+        ) : null
+      }
       </MapView>
       <View style={mainContent}>
       {
         props.appData.isFetching && <Text>Loading</Text>
-      }
-      {
-        // props.appData.data.length ? (
-        //   props.appData.data.map((person, i) => {
-        //     return <View key={i} >
-        //       <Text>Name: {person.name}</Text>
-        //       <Text>Age: {person.age}</Text>
-        //     </View>
-        //   })
-        // ) : null
-        props.appData.data.length ? (
-          props.appData.data.map((location, i) => {
-            return <View key={i} >
-              <Text>Color: {location.color}</Text>
-            </View>
-          })
-        ) : null
       }
       </View>
     </View>
