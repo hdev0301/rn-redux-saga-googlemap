@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "RNReduxSagaGoogleMap-tvOS.app"
-               BlueprintName = "RNReduxSagaGoogleMap-tvOS"
-               ReferencedContainer = "container:RNReduxSagaGoogleMap.xcodeproj">
+               BuildableName = "rnSaga-tvOS.app"
+               BlueprintName = "rnSaga-tvOS"
+               ReferencedContainer = "container:rnSaga.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RNReduxSagaGoogleMap-tvOSTests.xctest"
-               BlueprintName = "RNReduxSagaGoogleMap-tvOSTests"
-               ReferencedContainer = "container:RNReduxSagaGoogleMap.xcodeproj">
+               BuildableName = "rnSaga-tvOSTests.xctest"
+               BlueprintName = "rnSaga-tvOSTests"
+               ReferencedContainer = "container:rnSaga.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "RNReduxSagaGoogleMap-tvOSTests.xctest"
-               BlueprintName = "RNReduxSagaGoogleMap-tvOSTests"
-               ReferencedContainer = "container:RNReduxSagaGoogleMap.xcodeproj">
+               BuildableName = "rnSaga-tvOSTests.xctest"
+               BlueprintName = "rnSaga-tvOSTests"
+               ReferencedContainer = "container:rnSaga.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RNReduxSagaGoogleMap-tvOS.app"
-            BlueprintName = "RNReduxSagaGoogleMap-tvOS"
-            ReferencedContainer = "container:RNReduxSagaGoogleMap.xcodeproj">
+            BuildableName = "rnSaga-tvOS.app"
+            BlueprintName = "rnSaga-tvOS"
+            ReferencedContainer = "container:rnSaga.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RNReduxSagaGoogleMap-tvOS.app"
-            BlueprintName = "RNReduxSagaGoogleMap-tvOS"
-            ReferencedContainer = "container:RNReduxSagaGoogleMap.xcodeproj">
+            BuildableName = "rnSaga-tvOS.app"
+            BlueprintName = "rnSaga-tvOS"
+            ReferencedContainer = "container:rnSaga.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "RNReduxSagaGoogleMap-tvOS.app"
-            BlueprintName = "RNReduxSagaGoogleMap-tvOS"
-            ReferencedContainer = "container:RNReduxSagaGoogleMap.xcodeproj">
+            BuildableName = "rnSaga-tvOS.app"
+            BlueprintName = "rnSaga-tvOS"
+            ReferencedContainer = "container:rnSaga.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
