@@ -37,6 +37,8 @@ const App = (props) => {
             return <View key={i} >
               <MapView.Marker
                 coordinate={{latitude:location.lat, longitude:location.lon}}
+                image={{uri: 'https://i.imgur.com/mxaU520.png'}}
+                pinColor='#ff00ff'
               />
             </View>
           })
